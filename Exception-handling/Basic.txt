@@ -1,0 +1,50 @@
+An exception is runtime error caused by the things that are outside the developer control, 
+e.g FileNotFoundException etc.
+
+Execption handling is the process of writing code which can except the things to go wrong and raise the exceptions and handles them accordingly.
+
+e.g 
+1. webserver
+2. database connectivity
+etc.
+
+
+Exception Handling 
+You can create your exception and raise them when appropriate
+1. try 
+-----> Try Allow you to define a code block that could throw exception
+2. except 
+---> Allow you to define a code block when an exception is raised
+ try:
+    raise_custom_exception()
+except MyException as e:
+    print(e)
+
+Raise Custom Exception
+
+3. finally
+----> code block that gets run even if an exception is thrown or FileNotFoundException
+
+try:
+    k = 5/0
+    print(k)
+except ZeroDivisionError:
+    print("No Divide by Zero")
+finally:
+    print("Whatever s happens this will execute")
+
+o/p
+No Divide by Zero
+Whatever s happens this will execute
+
+4. raise
+----> raise allow you to raise your own custom exceptions
+e.g
+class MyException(Exception):
+    def __init__(self):
+        super(Execption, self).__init__()
+        self.args = ("Raised Custom Exception")
+
+
+def raise_custom_exception()
+    raise MyException()
