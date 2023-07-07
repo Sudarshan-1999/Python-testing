@@ -6,7 +6,7 @@ class ABC:
         print("Private Function")
 
 
-obj = ABC()
-obj.public()
-obj._ABC__private()
-
+# obj = ABC()
+# obj.public()
+# # obj._private()
+# obj.__private()

@@ -8,7 +8,7 @@ con = mc.connect (
 )
 
 def __str__(m1):
-    print(f"The connection is made with the class object {m1}")
+    print(f"The      connection is made with the class object {m1}")
 # connection= mc.connect(
 #     host = "localhost",
 #     user = "sud",

@@ -1,0 +1,3 @@
+[submodule "Flask_Tuts"]
+	path = Flask_Tuts
+	url = .\\Flask_Tuts\\

@@ -1,0 +1,6 @@
+import greeting as g
+
+
+name = g.Greeting("sumo")
+name.greet()
+# name.sayBye()

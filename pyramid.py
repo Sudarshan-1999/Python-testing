@@ -13,4 +13,3 @@ while(i<=n):
 
 def triangle(n):
     k = n -1
-    

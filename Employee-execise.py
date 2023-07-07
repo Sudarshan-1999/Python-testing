@@ -20,7 +20,7 @@ class Employee:
     def employee_name(self, name):
         # self.__str__ = name
         # print(f"The Employee name is {self.__str__}")
-        self.__str__(name)
+        return self.__str__(name)
 
     def __str__(self, name):
         self.name = name
